@@ -54,7 +54,7 @@ usage() {
 }
 
 echo_version() {
-    echo "Current version: $(fetch_latest_version)"
+    fetch_latest_version
 }
 
 update_version() {
